@@ -2,11 +2,11 @@
   "s3": {
     "stage": {
       "bucket": "projects-staging.seattletimes.com",
-      "path": ""
+      "path": "assentingly-glib"
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2018/Seahawks-grade-by-position"
     }
   },
   "title": "",
