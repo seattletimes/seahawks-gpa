@@ -6,14 +6,14 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": "2018/Seahawks-grade-by-position"
+      "path": "2018/seahawks-grades-by-position"
     }
   },
   "title": "",
   "description": "",
-  "url": "",
+  "url": "https://projects.seattletimes.com/2018/seahawks-grade-by-position",
   "image": "assets/social.jpg",
   "sheets": ["1BU9cB3jypO3BZLfRKs5asUxV6SrJwF5OQn7CNxOqe64"],
-  "production": false,
+  "production": true,
   "embedded": true
 }
