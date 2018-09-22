@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <% json.project.title %>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <%= t.include("partials/_head.html")%>
+    <% grunt.data.json %>
+    <% var gameGrades = json.Game1; %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+  <body>
+    <responsive-child>
+    
+    
+      <div class="flex-container">
+          <div class="item">
+          <h2>Headline</h2>
+    <div class="chatter">Words about the players here
+    </div>
+            <canvas id="myChart" width="355" height="355"></canvas>
+          </div>
+          <div class="item">
+          <h2>Headline</h2>
+    <div class="chatter">Words about the players here
+    </div>
+            <canvas id="myChart2" width="400" height="400"></canvas>
+        </div>          
+      </div>
+
+    </responsive-child>
+
+    <script> window.gameData = <%= JSON.stringify(gameGrades) %> </script>
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

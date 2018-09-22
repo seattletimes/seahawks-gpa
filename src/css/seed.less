@@ -1,0 +1,151 @@
+@import "seattletimes";
+@import (inline) "npm://chartist/dist/chartist.min.css";
+body {
+  font-size: 16px;
+  font-family: @df-sans;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.chart-tooltip {
+    position: absolute;
+    display: block;
+    min-width: 5em;
+    padding: .5em;
+    background: #F4C63D;
+    color: #453D3F;
+    font-family: Oxygen,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-align: center;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.flex-container {
+      display: flex;
+      flex-direction: row;
+      width:100%;
+      @media @tablet {
+      display: block;
+    }
+    }
+
+    .item {
+    flex-grow: 1;
+    }
+
+.outmost {
+  margin: 20px 0;
+  padding: 20px 0;
+  // border-top: 1px solid @df-border-gray;
+  // border-bottom: 1px solid @df-border-gray;
+}
+
+.chatter {
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 5px;
+  }
+  p {
+    margin-top: 0;
+    text-align: left;
+    font-family: @df-serif;
+  }
+}
+
+.chart-container {
+  padding-top: 20px;
+  width: 100%;
+  .display-flex();
+  .flex(1);
+  @media @mobile {
+    display: block;
+  }
+
+  .barchart {
+    border-right: 1px solid @df-border-gray;
+    .display-flex();
+    .flex(1 1 50%);
+    .flex-wrap(wrap);
+    // padding: 15px;
+    @media @mobile {
+      border:none;
+      display: block;
+      .flex(none);
+      width: 100%;
+    }
+  }
+  .barchart:last-child {
+    border:none;
+  }
+}
+.ct-bar {
+  stroke-width: percentage(1/20);
+}
+.ct-grid {
+  stroke: @df-border-gray;
+  stroke-width: 0.5px;
+  stroke-dasharray: none;
+}
+.bar-head {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0 10px 6px 10px;
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+.pctchange {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  font-family: sans-serif;
+  background-color: rgba(94, 151, 186, 0.3);
+  padding: 2px 4px;
+  border-radius: 3px;
+  @media @mobile {
+    margin-left: 10px;
+    text-align: left;
+    float:none;
+  }
+}
+.note {
+  padding-left: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: @df-middle-gray;
+  padding-bottom: 4px;
+}
+.ct-series-a .ct-bar {
+  stroke: #5e97ba;
+}
+.negative {
+  stroke: #f5ad42 !important;
+}
+
+.ct-chart .ct-grid.ct-vertical.axis {
+  stroke: black;
+  stroke-dasharray: none;
+  stroke-width: 1;
+}
+
+
+.source {
+  text-align: left;
+  font-size: 11.5px;
+  color: gray;
+}
+.credit {
+  text-align: right;
+  font-size: 11.5px;
+  color: gray;
+}
+
+.ct-major-third:before {
+  @media @mobile {
+    padding-bottom: 50%;
+  }
+}
