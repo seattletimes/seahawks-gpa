@@ -7,28 +7,28 @@
 
     <%= t.include("partials/_head.html")%>
     <% grunt.data.json %>
-    <% var gameGrades = json.Game1; %>
+    <% var gameGrades = json.Games; %>
     <link rel="stylesheet" type="text/css" href="style.css">
-    
+
 </head>
 
   <body>
     <responsive-child>
-    
-    
+
+
       <div class="flex-container">
           <div class="item">
-          <h2>Headline</h2>
-    <div class="chatter">Words about the players here
+          <h2>OFFENSE</h2>
+    <div class="chatter">Beat writer Bob Condotta grades the Seahawks on a GPA scale.
     </div>
             <canvas id="myChart" width="355" height="355"></canvas>
           </div>
           <div class="item">
-          <h2>Headline</h2>
-    <div class="chatter">Words about the players here
+          <h2>DEFENSE</h2>
+    <div class="chatter">Beat writer Bob Condotta grades the Seahawks on a GPA scale.
     </div>
             <canvas id="myChart2" width="400" height="400"></canvas>
-        </div>          
+        </div>
       </div>
 
     </responsive-child>

@@ -7,7 +7,7 @@ require("chartist-plugin-tooltips");
 var Chartist = require("chartist");
 var Chart = require('chart.js');
 
-var gameStuff = window.gameData.slice(-3);
+var gameStuff = window.gameData.slice(-5);
 
 var labels = gameStuff.map(d => d.game);
 
@@ -21,7 +21,7 @@ var dataLinebacker = gameStuff.map(d => d.Linebacker);
 var dataSecondary = gameStuff.map(d => d.Secondary);
 var dataSpecialTeams = gameStuff.map(d => d.SpecialTeams);
 
-window.onload = function() { 
+window.onload = function() {
 
   var ctx = document.getElementById("myChart").getContext('2d');
   var ctx2 = document.getElementById("myChart2").getContext('2d');
@@ -69,7 +69,7 @@ window.myChart = new Chart(ctx, {
                 }
             }]
         }
-       
+
       }
 });
 
@@ -111,7 +111,7 @@ window.myChart2 = new Chart(ctx2, {
                 }
             }]
         }
-       
+
       }
 });
 }

@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "grade": "A",
+    "scale": 4
+  },
+  {
+    "grade": "A-",
+    "scale": 3.7
+  },
+  {
+    "grade": "B+",
+    "scale": 3.3
+  },
+  {
+    "grade": "B+",
+    "scale": 3
+  },
+  {
+    "grade": "B-",
+    "scale": 2.7
+  },
+  {
+    "grade": "C+",
+    "scale": 2.3
+  },
+  {
+    "grade": "C+",
+    "scale": 2
+  },
+  {
+    "grade": "C-",
+    "scale": 1.7
+  },
+  {
+    "grade": "D+",
+    "scale": 1.3
+  },
+  {
+    "grade": "D+",
+    "scale": 1
+  },
+  {
+    "grade": "F",
+    "scale": 0
+  }
+]

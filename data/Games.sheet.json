@@ -1,0 +1,62 @@
+[
+  {
+    "game": "L 27-24 @ Broncos",
+    "Quarterback": 2,
+    "RunningBack": 1.7,
+    "WideReceiver": 2.7,
+    "TightEnd": 3.3,
+    "OffensiveLine": 2,
+    "DefensiveLine": 2,
+    "Linebacker": 2,
+    "Secondary": 2,
+    "SpecialTeams": 3
+  },
+  {
+    "game": "L 24-17 @ Bears",
+    "Quarterback": 1,
+    "RunningBack": 1,
+    "WideReceiver": 1,
+    "TightEnd": 2,
+    "OffensiveLine": 1,
+    "DefensiveLine": 2.7,
+    "Linebacker": 3,
+    "Secondary": 3,
+    "SpecialTeams": 3
+  },
+  {
+    "game": "W 24-13 vs. Cowboys",
+    "Quarterback": 3.7,
+    "RunningBack": 3.7,
+    "WideReceiver": 2.7,
+    "TightEnd": 3.3,
+    "OffensiveLine": 3.3,
+    "DefensiveLine": 4,
+    "Linebacker": 4,
+    "Secondary": 4,
+    "SpecialTeams": 3
+  },
+  {
+    "game": "W 20-17 @ Cardinals",
+    "Quarterback": 3,
+    "RunningBack": 4,
+    "WideReceiver": 2.7,
+    "TightEnd": 3,
+    "OffensiveLine": 3,
+    "DefensiveLine": 2.7,
+    "Linebacker": 3.3,
+    "Secondary": 2.7,
+    "SpecialTeams": 2
+  },
+  {
+    "game": "L 33-31 vs. Rams",
+    "Quarterback": 3.7,
+    "RunningBack": 4,
+    "WideReceiver": 2.7,
+    "TightEnd": 3,
+    "OffensiveLine": 3.3,
+    "DefensiveLine": 2.7,
+    "Linebacker": 3,
+    "Secondary": 2,
+    "SpecialTeams": 3
+  }
+]
