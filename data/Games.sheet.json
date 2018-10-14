@@ -58,5 +58,17 @@
     "Linebacker": 3,
     "Secondary": 2,
     "SpecialTeams": 3
+  },
+  {
+    "game": "W 27-3 vs. Raiders (London)",
+    "Quarterback": 3.3,
+    "RunningBack": 4,
+    "WideReceiver": 3.3,
+    "TightEnd": 4,
+    "OffensiveLine": 4,
+    "DefensiveLine": 4,
+    "Linebacker": 4,
+    "Secondary": 3.7,
+    "SpecialTeams": 4
   }
 ]
