@@ -70,5 +70,29 @@
     "Linebacker": 4,
     "Secondary": 3.7,
     "SpecialTeams": 4
+  },
+  {
+    "game": "W 28-14 @ Lions",
+    "Quarterback": 4,
+    "RunningBack": 4,
+    "WideReceiver": 4,
+    "TightEnd": 4,
+    "OffensiveLine": 4,
+    "DefensiveLine": 4,
+    "Linebacker": 3.7,
+    "Secondary": 3,
+    "SpecialTeams": 4
+  },
+  {
+    "game": "L 25-17 vs. Chargers",
+    "Quarterback": 1.7,
+    "RunningBack": 3,
+    "WideReceiver": 2,
+    "TightEnd": 2.7,
+    "OffensiveLine": 2,
+    "DefensiveLine": 2.7,
+    "Linebacker": 3,
+    "Secondary": 2.7,
+    "SpecialTeams": 3.7
   }
 ]
