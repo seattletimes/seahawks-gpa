@@ -94,5 +94,17 @@
     "Linebacker": 3,
     "Secondary": 2.7,
     "SpecialTeams": 3.7
+  },
+  {
+    "game": "L 36-31 @ Rams",
+    "Quarterback": 3.3,
+    "RunningBack": 3.7,
+    "WideReceiver": 3,
+    "TightEnd": 3,
+    "OffensiveLine": 3.3,
+    "DefensiveLine": 2.3,
+    "Linebacker": 2.3,
+    "Secondary": 2.3,
+    "SpecialTeams": 3.3
   }
 ]
