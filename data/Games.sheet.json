@@ -118,5 +118,17 @@
     "Linebacker": 3.3,
     "Secondary": 2.7,
     "SpecialTeams": 4
+  },
+  {
+    "game": "W 30-27 @ Panthers",
+    "Quarterback": 3.7,
+    "RunningBack": 2.7,
+    "WideReceiver": 3.3,
+    "TightEnd": 3,
+    "OffensiveLine": 3,
+    "DefensiveLine": 1.7,
+    "Linebacker": 2.7,
+    "Secondary": 1.7,
+    "SpecialTeams": 3.7
   }
 ]
