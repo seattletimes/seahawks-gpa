@@ -130,5 +130,17 @@
     "Linebacker": 2.7,
     "Secondary": 1.7,
     "SpecialTeams": 3.7
+  },
+  {
+    "game": "W 43-16 vs. 49ers",
+    "Quarterback": 3.7,
+    "RunningBack": 4,
+    "WideReceiver": 4,
+    "TightEnd": 3.3,
+    "OffensiveLine": 3,
+    "DefensiveLine": 3.3,
+    "Linebacker": 4,
+    "Secondary": 2.3,
+    "SpecialTeams": 3
   }
 ]
