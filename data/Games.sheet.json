@@ -142,5 +142,17 @@
     "Linebacker": 4,
     "Secondary": 2.3,
     "SpecialTeams": 3
+  },
+  {
+    "game": "W 21-7 vs. Vikings",
+    "Quarterback": 1.7,
+    "RunningBack": 4,
+    "WideReceiver": 2,
+    "TightEnd": 2,
+    "OffensiveLine": 3.3,
+    "DefensiveLine": 3.7,
+    "Linebacker": 4,
+    "Secondary": 3.7,
+    "SpecialTeams": 3.7
   }
 ]
