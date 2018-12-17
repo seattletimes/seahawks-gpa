@@ -154,5 +154,17 @@
     "Linebacker": 4,
     "Secondary": 3.7,
     "SpecialTeams": 3.7
+  },
+  {
+    "game": "L 26-23 (OT) @ 49ers",
+    "Quarterback": 2.7,
+    "RunningBack": 3.3,
+    "WideReceiver": 2.3,
+    "TightEnd": 2,
+    "OffensiveLine": 1,
+    "DefensiveLine": 3,
+    "Linebacker": 3,
+    "Secondary": 1.7,
+    "SpecialTeams": 1
   }
 ]

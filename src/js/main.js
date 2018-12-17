@@ -7,7 +7,7 @@ require("chartist-plugin-tooltips");
 var Chartist = require("chartist");
 var Chart = require('chart.js');
 
-var gameStuff = window.gameData.slice(-13);
+var gameStuff = window.gameData.slice(-14);
 
 var labels = gameStuff.map(d => d.game);
 
